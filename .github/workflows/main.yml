@@ -25,7 +25,7 @@ jobs:
       
     steps:
       - name: Passo 1
-        run: "Get-ChildItem Env: | Sort-Object Name"
+        run: env | sort
   
   job3:
     name: Terceiro Job
