@@ -17,7 +17,7 @@ jobs:
     
     steps:
       - name: Passo1
-        run: env | sort
+        run: day
   
   job2:
     name: Segundo Job
@@ -25,7 +25,7 @@ jobs:
       
     steps:
       - name: Passo 1
-        run: env | sort
+        run: month
   
   job3:
     name: Terceiro Job
@@ -33,7 +33,7 @@ jobs:
       
     steps:
       - name: Passo 1
-        run: "Get-ChildItem Env: | Sort-Object Name"
+        run: year
         
   job4:
     name: Quarto Job
