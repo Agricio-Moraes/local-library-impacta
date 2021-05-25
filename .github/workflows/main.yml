@@ -17,7 +17,7 @@ jobs:
     
     steps:
       - name: Passo1
-        run: echo 'date'
+        run: date
   
   job2:
     name: Segundo Job
@@ -25,7 +25,7 @@ jobs:
       
     steps:
       - name: Passo 1
-        run: echo 'date'
+        run: date
   
   job3:
     name: Terceiro Job
@@ -33,7 +33,7 @@ jobs:
       
     steps:
       - name: Passo 1
-        run: echo 'date'
+        run: date
         
   job4:
     name: Quarto Job
@@ -42,6 +42,6 @@ jobs:
       
     steps:
       - name: Passo 1
-        run: echo 'date'
+        run: date
       
       
