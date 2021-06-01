@@ -1,3 +1,5 @@
+name: Node.js Pipeline
+
 on:
   push:
     branches: [ main ]
@@ -37,12 +39,12 @@ jobs:
         uses: akhileshns/heroku-deploy@v3.10.9 # This is the action
         with:
           heroku_api_key: ${{secrets.HEROKU_API_KEY}}
-          heroku_app_name: app-impacta-pedrolacerda-hom
-          heroku_email: pedrohrl1@gmail.com
+          heroku_app_name: app-impacta-agricio-moraes-hom
+          heroku_email: agriciomoraes@terra.com.br
           justlogin: true
       
       - name: Set Heroku remote
-        run: heroku git:remote -a app-impacta-pedrolacerda-hom
+        run: heroku git:remote -a app-impacta-agricio-moraes-hom
       
       - name: Set env variables
         run: |
